@@ -345,25 +345,18 @@ nav h3 {
 }
 
 .fullscr {
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  /* background-color: #00000070; */
+  background-color: whitesmoke;
   position: fixed;
-  z-index: 99;
+  z-index: 100;
   top: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
   transition: all ease 0.8s;
 
 }
 
-.full-div1 {
-  height: 100%;
-  width: 97%;
-  background-color: #EFEAE3;
-
-
-  display: none;
-
-}
 
 .full-part3 {
   line-height: 8vh;
@@ -404,76 +397,79 @@ nav h3 {
 }
 
 
-.fotter-section{
+.fotter-section {
   height: auto;
   width: 100%;
-background-color: #000;
-display: flex;
-justify-content:space-between;
-padding: 5vw;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw;
 }
 
-.imformation{
-color: white;
+.imformation {
+  color: white;
 }
-.imformation h1{
+
+.imformation h1 {
   font-size: 4vw;
 }
-.imformation h4:hover{
+
+.imformation h4:hover {
   color: rgb(0, 149, 96);
 }
 
-.icons{
-margin-top: 2vh;
+.icons {
+  margin-top: 2vh;
   display: flex;
   gap: 1vw;
   font-size: 20px;
 
 }
-.icons a{
-    text-decoration: none;
-color: white;
+
+.icons a {
+  text-decoration: none;
+  color: white;
 
 }
 
 
-::selection{
+::selection {
   color: rgb(0, 149, 96);
 }
 
 
-.about{
+.about {
   color: white;
   padding-top: 2vh;
 }
-.about li{
 
-}
 
-.about .element{
+.about .element {
   padding-top: 1vh;
   line-height: 2.2vh;
 }
-.element li:hover{
+
+.element li:hover {
   color: rgb(0, 149, 96);
 }
 
 
-.getin-touch{
+.getin-touch {
   color: white;
   padding-top: 2vh;
 }
-.getin-touch h3{
+
+.getin-touch h3 {
   font-size: 3vh;
 }
 
-.getin-touch .element{
+.getin-touch .element {
 
   padding-top: 1vh;
   line-height: 2.2vh;
 }
 
-.element i{
+.element i {
   display: flex;
 
 }
@@ -501,7 +497,7 @@ color: white;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 8vw 5vw;
+    padding: 18px 15px;
     position: relative;
     /* background-color: #EFEAE3; */
   }
@@ -511,8 +507,6 @@ color: white;
     padding-right: 0vw;
     font-size: 5vw;
     padding-top: 0vw;
-
-
   }
 
   #logo {
@@ -521,8 +515,6 @@ color: white;
     padding-left: 0vw;
     transition: all ease 0.4s;
     height: 9vh;
-
-
   }
 
   .nav-part2 {
@@ -821,93 +813,82 @@ color: white;
 
   }
 
-  .full-div1 {
-    height: 100%;
-    width: 97%;
-    background-color: #EFEAE3;
+  .fotter-section {
+    height: auto;
+    width: 100%;
+    background-color: #000;
+    flex-direction: column;
+    padding: 5vw;
+  }
 
-    display: block;
+  .imformation {
+    color: white;
+  }
+
+  .imformation h1 {
+    font-size: 10vw;
+  }
+
+  .imformation h4:hover {
+    color: rgb(0, 149, 96);
+  }
+
+  .icons {
+    margin-top: 2vh;
+    display: flex;
+    gap: 3vw;
+    font-size: 2.5vh;
+
+  }
+
+  .icons a {
+    text-decoration: none;
+    color: white;
 
   }
 
 
-
-.fotter-section {
-  height: auto;
-  width: 100%;
-  background-color: #000;
-flex-direction: column;
-  padding: 5vw;
-}
-
-.imformation {
-  color: white;
-}
-
-.imformation h1 {
-  font-size: 10vw;
-}
-
-.imformation h4:hover {
-  color: rgb(0, 149, 96);
-}
-
-.icons {
-  margin-top: 2vh;
-  display: flex;
-  gap: 3vw;
-  font-size: 2.5vh;
-
-}
-
-.icons a {
-  text-decoration: none;
-  color: white;
-
-}
+  ::selection {
+    color: rgb(0, 149, 96);
+  }
 
 
-::selection {
-  color: rgb(0, 149, 96);
-}
+  .about {
+    color: white;
+    padding-top: 2vh;
+  }
+
+  .about h3 {
+    font-size: 2.4vh;
+    color: rgb(0, 149, 96);
+  }
+
+  .about .element {
+    padding-top: 1vh;
+    padding-left: 5vw;
+    line-height: 2.5vh;
+  }
+
+  .element h4:hover {
+    color: rgb(0, 149, 96);
+  }
 
 
-.about {
-  color: white;
-  padding-top: 2vh;
-}
+  .getin-touch {
+    color: white;
+    padding-top: 2vh;
+  }
 
-.about h3 {
-  font-size: 2.4vh;
-  color: rgb(0, 149, 96);
-}
+  .getin-touch h3 {
+    font-size: 2.4vh;
+    color: rgb(0, 149, 96);
+  }
 
-.about .element {
-  padding-top: 1vh;
-  padding-left: 5vw;
-  line-height: 2.5vh;
-}
-
-.element h4:hover {
-  color: rgb(0, 149, 96);
-}
-
-
-.getin-touch {
-  color: white;
-  padding-top: 2vh;
-}
-
-.getin-touch h3 {
-  font-size: 2.4vh;
-  color: rgb(0, 149, 96);
-}
-
-.getin-touch .element {
-  padding-left: 4vw;
-  padding-top: 1vh;
-  line-height: 2.2vh;
-}
+  .getin-touch .element {
+    padding-left: 4vw;
+    padding-top: 1vh;
+    line-height: 2.2vh;
+  }
 
 
 

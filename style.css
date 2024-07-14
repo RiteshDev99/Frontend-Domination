@@ -33,7 +33,7 @@ body {
 }
 
 nav {
-  height: 8vh;
+  height: 9vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -148,21 +148,21 @@ nav h3 {
   margin-top: 2vw;
   background-color: black;
   border-radius: 8px;
-  height: 5vh;
-  width: 17vw;
+  height: 6vh;
+  width: 19vw;
 
 
 }
 
 .course h3 {
-  padding: 10px 39px;
+  padding: 10px 50px;
   font-weight: 700;
   font-size: 25px;
   margin-top: 2vw;
   background-color: black;
   border-radius: 8px;
-  height: 5vh;
-  width: 13vw;
+  height: 6vh;
+  width: 15vw;
 }
 
 .course h3 a {
@@ -268,7 +268,7 @@ nav h3 {
 }
 
 .doom2 h2 {
-
+  
   padding: 10vh 7vw;
   border-radius: 35px;
   font-size: 3vw;
@@ -733,7 +733,7 @@ nav h3 {
   .doom2 {
     display: flex;
     justify-content: center;
-    padding-top: 5vh;
+    padding: 5vh;
     /* padding: 0 10vw; */
     /* justify-content: space-between; */
     gap: 3vw;
@@ -742,9 +742,9 @@ nav h3 {
 
   .doom2 h2 {
 
-    padding: 4vh 10vw;
+    padding: 4vh 7.5vw;
     border-radius: 25px;
-    font-size: 3vw;
+    font-size: 5vw;
     background-color: #009560;
     color: #fff;
   }

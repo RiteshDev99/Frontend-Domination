@@ -33,15 +33,14 @@ body {
 }
 
 nav {
-  height: 9vh;
+  height: 8vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 1vw 3vw;
   overflow: hidden;
-  z-index: 100;
-  /* background-color: #00784e; */
-
+  z-index: 99;
+  position: relative;
 }
 
 .nav-part2 {
@@ -52,6 +51,7 @@ nav {
 
 .nav-part2 h4 {
   padding: 10px 20px;
+  padding: 0.6vw 1.8vw;
   border: 1px solid #8a8a8a89;
   border-radius: 50px;
   font-weight: 500;
@@ -59,7 +59,11 @@ nav {
   font-size: 18px;
   position: relative;
   transition: all ease 0.4s;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  overflow: hidden;
+  display: flex;
+align-items: center;
+  
 
 }
 
@@ -136,15 +140,13 @@ nav h3 {
 .course {
   display: flex;
   gap: 1.6vw;
-  /* display: none; */
-
-
+  overflow: hidden;
 }
 
 .course h4 {
   padding: 10px 30px;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.6vw;
   margin-top: 2vw;
   background-color: black;
   border-radius: 8px;
@@ -157,7 +159,7 @@ nav h3 {
 .course h3 {
   padding: 10px 50px;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 1.6vw;
   margin-top: 2vw;
   background-color: black;
   border-radius: 8px;

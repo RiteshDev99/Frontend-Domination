@@ -26,15 +26,12 @@ body {
 .page1 {
   height: 85vh;
   width: 100%;
-  /* background-color:#f1ecec; */
   position: relative;
   background-color: #EFEAE3;
 
 }
 
 nav {
-  height: 8vh;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 1vw 3vw;
@@ -141,30 +138,37 @@ nav h3 {
   display: flex;
   gap: 1.6vw;
   overflow: hidden;
+ 
 }
 
 .course h4 {
   padding: 10px 30px;
-  font-weight: 700;
-  font-size: 1.6vw;
+  font-weight: 500;
+  font-size: 1.3vw;
   margin-top: 2vw;
   background-color: black;
   border-radius: 8px;
   height: 6vh;
   width: 19vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 
 }
 
 .course h3 {
   padding: 10px 50px;
-  font-weight: 700;
-  font-size: 1.6vw;
+  font-weight: 500;
+  font-size: 1.3vw;
   margin-top: 2vw;
   background-color: black;
   border-radius: 8px;
   height: 6vh;
   width: 15vw;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .course h3 a {
@@ -206,16 +210,16 @@ nav h3 {
 }
 
 .purchase h2 a {
-  padding: 15px 35px;
+  padding: 15px 70px;
   font-weight: 700;
   color: #EFEAE3;
   font-size: 25px;
   margin-top: 1vw;
   border-radius: 8px;
   text-decoration: none;
-  border: 1px solid black;
   height: 8vh;
   background-color: #009560;
+  overflow: hidden;
 }
 
 .purchase h3 {
@@ -334,12 +338,12 @@ nav h3 {
   height: 8vh;
   width: 20%;
   background-color: #009560;
+  overflow: hidden;
   margin-top: 4vw;
   border-radius: 3vw;
   display: flex;
   align-items: center;
-  padding-left: 4vw;
-  box-shadow: 8px 8px 18px rgb(0, 149, 96)
+  justify-content: center;
 }
 
 .button h3 {
@@ -679,15 +683,13 @@ nav h3 {
   }
 
   .purchase h2 a {
-    padding: 15px 23px;
-    font-weight: 400;
+    padding: 18px 65px;
+    font-weight: 500;
     color: #EFEAE3;
-    font-size: 17px;
-    margin-top: 2vw;
+    font-size: 15px;
     background-color: #009560;
-    border-radius: 8px;
+    border-radius: 9px;
     text-decoration: none;
-    border: 1px solid black;
   }
 
   .purchase h3 {
@@ -798,20 +800,20 @@ nav h3 {
 
   .button {
     height: 6vh;
-    width: 60vw;
+    width: 50vw;
     background-color: #009560;
+    overflow: hidden;
     margin-top: 5vh;
     border-radius: 26px;
     display: flex;
     justify-content: center;
+  align-items: center;
 
-    padding-left: 4vw;
-    box-shadow: 8px 8px 18px rgb(0, 149, 96)
   }
 
   .button h3 {
     color: #fff;
-
+font-size: 4vw;
 
   }
 
